@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://www.pcgamesn.com/wp-content/sites/pcgamesn/2018/06/Hearthstone-decks.jpeg");
+}
+
+#card-info {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/009/384/127/non_2x/wooden-banner-clipart-design-illustration-free-png.png");
+    background-size: contain;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    justify-self: center;
+    grid-area: intro; 
+    color:black;
+}
+
+#result {
+    background-color: bisque;
+    border-radius: 10px;
+}
